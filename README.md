@@ -4,6 +4,7 @@ Some golang related gotchas
 ### List of gotchas
 
 #### Avoid `fmt.scanf`: 
+https://groups.google.com/forum/#!topic/golang-nuts/dAfCb2ybxJs
 
 Reading 100000 space separated integers from stdin
 
