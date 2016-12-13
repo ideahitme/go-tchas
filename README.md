@@ -25,7 +25,7 @@ Reading 100000 space separated integers from stdin
 ```
   n := 100000
   scanner := bufio.NewScanner(os.Stdin)
-	scanner.Split(bufio.ScanWords)
+  scanner.Split(bufio.ScanWords)
   for i :=0; i < n; i++ {
     scanner.Scan()
     var x int
