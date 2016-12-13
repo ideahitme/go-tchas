@@ -14,8 +14,8 @@ Reading 100000 space separated integers from stdin
 ```
   n := 100000
   for i := 0; i < n; i++ {
-    var n int
-    fmt.Scanf(&n)
+    var x int
+    fmt.Scanf(&x)
   }
 
 ```
@@ -28,8 +28,8 @@ Reading 100000 space separated integers from stdin
 	scanner.Split(bufio.ScanWords)
   for i :=0; i < n; i++ {
     scanner.Scan()
-    var n int
-    n, _ = strconv.Atoi(scanner.Text())
+    var x int
+    x, _ = strconv.Atoi(scanner.Text())
   }
 
 ```
